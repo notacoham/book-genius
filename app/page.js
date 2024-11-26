@@ -3,7 +3,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="hero min-h-screen bg-base-200 flex justify-center items-center">
+    <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
         <div className="max-w-dm">
           <h1 className="text-6xl font-bold text-primary">GPTGenius</h1>
