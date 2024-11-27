@@ -15,9 +15,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'GPTGenius',
+  title: 'BookGeniusAI',
   description:
-    'GPTGenius: Your AI language companion. Powered bt OpenAI, it enhances your conversations, content creation, and more!',
+    'BookGeniusAI: Your AI library companion. Powered by OpenAI, it helps you find the right book for you!',
 };
 
 export default function RootLayout({ children }) {

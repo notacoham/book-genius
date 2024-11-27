@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
 const themes = {
-  synthwave: 'synthwave',
+  dracula: 'dracula',
   retro: 'retro',
 };
 
@@ -12,7 +12,7 @@ const ThemeToggle = () => {
   const [theme, setTheme] = useState(themes.retro);
 
   const toggleTheme = () => {
-    const newTheme = theme === themes.retro ? themes.synthwave : themes.retro;
+    const newTheme = theme === themes.retro ? themes.dracula : themes.retro;
     document.documentElement.setAttribute('data-theme', newTheme);
     setTheme(newTheme);
   };

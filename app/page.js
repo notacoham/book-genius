@@ -6,10 +6,11 @@ const HomePage = () => {
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
         <div className="max-w-dm">
-          <h1 className="text-6xl font-bold text-primary">GPTGenius</h1>
+          <h1 className="text-6xl font-bold text-primary">BookGeniusAI</h1>
           <p className="py-6 text-lg leading-loose">
-            GPTGenius: Your AI language companion. Powered by OpenAI, it
-            enhances your conversations, content creation, and more!
+            BookGeniusAI: Your AI library companion. Powered by OpenAI, our
+            smart library companion finds a book to help you get out of any
+            reading slump!
           </p>
           <Link href="/chat" className="btn btn-secondary">
             Get Started

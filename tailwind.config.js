@@ -15,6 +15,6 @@ module.exports = {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ['synthwave', 'retro'],
+    themes: ['retro', 'dracula'],
   },
 };
