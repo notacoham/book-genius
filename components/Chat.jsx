@@ -63,7 +63,7 @@ const Chat = () => {
             type="submit"
             disabled={isPending}
           >
-            {isPending ? 'Please wait...' : 'Ask Question'}
+            {isPending ? 'Please wait...' : 'Find a Book'}
           </button>
         </div>
       </form>
